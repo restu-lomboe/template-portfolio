@@ -1,0 +1,19 @@
+# Ignore everything
+*
+
+# Except these files inside dist
+!.gitignore
+!index.html
+!assets/
+
+# Ignore all files inside assets
+assets/*
+# Except built files
+!assets/**/*.js
+!assets/**/*.css
+!assets/**/*.svg
+!assets/**/*.png
+!assets/**/*.jpg
+!assets/**/*.woff2
+!assets/**/*.woff
+!assets/**/*.ttf
